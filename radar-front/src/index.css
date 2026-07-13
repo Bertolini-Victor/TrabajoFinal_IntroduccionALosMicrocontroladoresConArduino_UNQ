@@ -1,0 +1,40 @@
+:root {
+  font-family: system-ui, -apple-system, sans-serif;
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  div[style*="min-height: 100vh"] {
+    flex-direction: column !important;
+  }
+  aside {
+    width: 100% !important;
+    border-right: none !important;
+    border-bottom: 1px solid #222 !important;
+    padding: 1.5rem !important;
+    box-sizing: border-box !important;
+  }
+  main {
+    padding: 1.5rem !important;
+    box-sizing: border-box !important;
+  }
+  div[style*="aspect-ratio: 4 / 3"] {
+    min-height: 200px;
+    margin-bottom: 2rem !important;
+  }
+}
