@@ -13,7 +13,7 @@
 #include "esp_camera.h"
 #include "esp_http_server.h"
 
-// ---------- Pines de la cámara AI-Thinker ----------
+// ---------- Pines de la cámara ----------
 #define PWDN_GPIO_NUM     32
 #define RESET_GPIO_NUM    -1
 #define XCLK_GPIO_NUM      0
@@ -30,11 +30,10 @@
 #define VSYNC_GPIO_NUM    25
 #define HREF_GPIO_NUM     23
 #define PCLK_GPIO_NUM     22
-
 httpd_handle_t stream_httpd = NULL;
 
 // ---------- Configuración de Red (Modo AP) ----------
-const char* ssid = "Sensor_Auto_Victor";
+const char* ssid = "Sensor_Auto";
 const char* password = "password123";
 
 WebServer server(80);
@@ -157,10 +156,7 @@ void loop() {
   }
 }
 
-// ============================================================
 // FUNCIONES AUXILIARES
-// ============================================================
-
 void handleGetSensors() {
   JsonDocument doc;
 
