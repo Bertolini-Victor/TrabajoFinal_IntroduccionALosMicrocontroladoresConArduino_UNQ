@@ -1,5 +1,10 @@
 # Radar IoT: Sistema de Asistencia de Estacionamiento Avanzado
 
+![Arduino](https://img.shields.io/badge/Arduino-ESP32--CAM-00979D?style=flat-square&logo=arduino&logoColor=white)
+![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-Frontend-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Estado](https://img.shields.io/badge/Estado-TP%20Final-1E90FF?style=flat-square)
+
 Sistema de asistencia de estacionamiento IoT con ESP32-CAM (sensores ultrasónicos + video en vivo) y un dashboard web en React.
 
 Este repositorio contiene el código fuente completo de un sistema de asistencia de estacionamiento en tiempo real inspirado en vehículos modernos. El proyecto combina hardware de bajo nivel con una interfaz web moderna, utilizando un microcontrolador ESP32-CAM y un dashboard en React.js.
