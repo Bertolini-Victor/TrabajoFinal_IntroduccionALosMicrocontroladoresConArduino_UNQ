@@ -1,5 +1,9 @@
 # Dashboard Frontend - Radar IoT
 
+![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-Build%20Tool-646CFF?style=flat-square&logo=vite&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-Context%20API-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
 Este directorio contiene la interfaz de usuario para el Sistema de Asistencia de Estacionamiento Avanzado. Fue inicializado con Vite y construido con React.js. Actúa como la pantalla del vehículo, conectándose a la red Wi-Fi generada por la placa ESP32-CAM para consumir telemetría en tiempo real y visualizar el video de la cámara de reversa.
 
 ## Contenido del directorio
