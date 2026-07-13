@@ -8,8 +8,8 @@ Este repositorio contiene el código fuente completo de un sistema de asistencia
 
 El repositorio está dividido en dos carpetas principales, separando claramente el backend (hardware) del frontend (cliente):
 
-- `/arduino` - Contiene el código fuente en C++ para el microcontrolador ESP32-CAM. Gestiona la lectura no bloqueante de múltiples sensores ultrasónicos, el streaming de video MJPEG, la lógica de alertas sonoras y levanta una red Wi-Fi (Access Point) con una API REST en formato JSON.
-- `/front` - Contiene la aplicación web desarrollada con React.js y Vite. Actúa como el "tablero del vehículo", consumiendo la API de la ESP32-CAM para mostrar la telemetría, el estado de los sensores y la cámara de reversa en tiempo real con latencia ultra baja.
+- `/Sketch_sensor_proximidad_v1` - Contiene el código fuente en C++ para el microcontrolador ESP32-CAM. Gestiona la lectura no bloqueante de múltiples sensores ultrasónicos, el streaming de video MJPEG, la lógica de alertas sonoras y levanta una red Wi-Fi (Access Point) con una API REST en formato JSON.
+- `/radar-front` - Contiene la aplicación web desarrollada con React.js y Vite. Actúa como el "tablero del vehículo", consumiendo la API de la ESP32-CAM para mostrar la telemetría, el estado de los sensores y la cámara de reversa en tiempo real con latencia ultra baja.
 
 ## Hardware Necesario
 
